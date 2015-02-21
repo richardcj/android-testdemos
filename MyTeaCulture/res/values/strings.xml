@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">茶百科[防]</string>
+    <string name="title_activity_start">开始界面</string>
+    <string name="title_activity_guide">向导界面</string>
+    <string name="title_activity_main">主UI</string>
+    <string name="title_activity_content">信息内容</string>
+    <string name="title_activity_function">功能设置信息</string>
+	<string name="title_activity_share">分享</string>
+	
+	<string name="des_imageview">小圆点</string>
+	<string name="title_nav_toutiao">头条</string>
+	<string name="title_nav_baike">百科</string>
+	<string name="title_nav_zixun">咨询</string>
+	<string name="title_nav_jingying">经营</string>
+	<string name="title_nav_shuju">数据</string>
+	
+	<string name="hit_function_search">关键字</string>
+	<string name="txt_function_hotsearch">热门搜索：茶</string>
+	<string name="txt_function_collect">收藏夹</string>
+	<string name="txt_function_mycollect">我的收藏</string>
+	<string name="txt_function_myvisitrecord">查看访问记录</string>
+	<string name="txt_function_about">关于客户端</string>
+	<string name="txt_function_copyright">版权信息</string>
+	<string name="txt_function_feedback">意见反馈</string>
+	<string name="txt_copyright_title">买买茶.茶百科</string>
+	<string name="txt_copyright_version">Android v1.0.2</string>
+	<string name="txt_copyright_right">Copyright@2010-2013 MaiMaiCha.cn</string>
+	<string name="txt_copyright_rightdes">买买茶 版权所有</string>
+</resources>

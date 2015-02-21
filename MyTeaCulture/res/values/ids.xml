@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ========activity_start========= -->
+    <item type="id" name="rl_splash_start"></item>
+    
+    <!-- ========activity_guide========= -->
+    <item type="id" name="vp_guide_img"></item>
+    <item type="id" name="ll_guide_dots"></item>
+    <item type="id" name="ll_guide_showimg"></item>
+    <item type="id" name="btn_guide_ok"></item>
+    
+    <!-- ========activity_main========= -->
+    <item type="id" name="ll_main_navagation"></item>
+    <item type="id" name="vp_main_content"></item>
+    
+    <!-- ========activity_main========= -->
+    <item type="id" name="rl_frgcontent_container"></item>
+    <item type="id" name="vp_frgcontent_ImageRotation"></item>
+    <item type="id" name="tv_frgcontent_title"></item>
+    <item type="id" name="radio_frgcontent_showdot"></item>
+    <item type="id" name="lv_frgcontent_content"></item>
+    
+    <!-- ========item_frgcontent_listview========= -->
+    <item type="id" name="iv_frgcontent_thumb"></item>
+    <item type="id" name="tv_frgcontent_itemtitle"></item>
+    <item type="id" name="tv_frgcontent_itemSource"></item>
+    <item type="id" name="tv_frgcontent_itemNickName"></item>
+    <item type="id" name="tv_frgcontent_itemCreateTime"></item>
+    
+    <!-- ========activity_contentitem========= -->
+    <item type="id" name="tv_contentitem_title"></item>
+    <item type="id" name="tv_contentitem_source"></item>
+    <item type="id" name="tv_contentitem_createtime"></item>
+    <item type="id" name="wv_contentitem_wapcontent"></item>
+    <item type="id" name="iv_contentitem_back"></item>
+    <item type="id" name="iv_contentitem_collect"></item>
+    <item type="id" name="iv_contentitem_share"></item>
+    
+    <!-- ========activity_share========= -->
+    <item type="id" name="iv_shared_bg"></item>
+    
+    <!-- ========function_title========= -->
+    <item type="id" name="iv_function_return"></item>
+    <item type="id" name="iv_function_home"></item>
+    <item type="id" name="tv_function_title"></item>
+    
+     <!-- ========activity_function========= -->
+    <item type="id" name="fl_function_fragmentchange"></item>
+    
+    <!-- ========fragment_functiontea========= -->
+    <item type="id" name="et_function_search"></item>
+    <item type="id" name="iv_function_search"></item>
+    <item type="id" name="tv_function_hotsearch"></item>
+    <item type="id" name="tv_function_mycollect"></item>
+    <item type="id" name="tv_function_myvisitrecord"></item>
+    <item type="id" name="tv_function_copyright"></item>
+    <item type="id" name="tv_function_feedback"></item>
+    
+    <!-- ========fragment_copyright========= -->
+    <item type="id" name="iv_copyright_logo"></item>
+    <item type="id" name="tv_copyright_logotitle"></item>
+    <item type="id" name="tv_copyright_version"></item>
+    <item type="id" name="tv_copyright_right"></item>
+    <item type="id" name="tv_copyright_rightdes"></item>
+</resources>

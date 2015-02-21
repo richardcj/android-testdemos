@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@id/et_function_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+            android:drawableLeft="@drawable/searchico"
+            android:ems="10"
+            android:hint="@string/hit_function_search"
+            android:padding="5dp" />
+
+        <ImageView
+            android:id="@id/iv_function_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/des_imageview"
+            android:src="@drawable/gosearch" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@id/tv_function_hotsearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="5dp"
+        android:text="@string/txt_function_hotsearch" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shoucangjia"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="@string/txt_function_collect"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@id/tv_function_mycollect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/txt_function_mycollect"
+        android:textColor="#000"
+        android:textSize="18sp" />
+    <!-- 分割线 -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_margin="5dp"
+        android:background="#efebef" />
+
+    <TextView
+        android:id="@id/tv_function_myvisitrecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/txt_function_myvisitrecord"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/guanyu"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="@string/txt_function_about"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@id/tv_function_copyright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/txt_function_copyright"
+        android:textColor="#000"
+        android:textSize="18sp" />
+    <!-- 分割线 -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_margin="5dp"
+        android:background="#efebef" />
+
+    <TextView
+        android:id="@id/tv_function_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/txt_function_feedback"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+</LinearLayout>

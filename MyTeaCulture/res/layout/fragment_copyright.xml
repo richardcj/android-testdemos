@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7" >
+
+    <ImageView
+        android:id="@id/iv_copyright_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:contentDescription="@string/des_imageview"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@id/tv_copyright_logotitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_copyright_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/txt_copyright_title"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@id/tv_copyright_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_copyright_logotitle"
+        android:layout_centerHorizontal="true"
+        android:text="@string/txt_copyright_version" />
+
+    <TextView
+        android:id="@id/tv_copyright_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_copyright_version"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="114dp"
+        android:text="@string/txt_copyright_right"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@id/tv_copyright_rightdes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_copyright_right"
+        android:layout_centerHorizontal="true"
+        android:text="@string/txt_copyright_rightdes"
+        android:textColor="#000" />
+
+</RelativeLayout>
